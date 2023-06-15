@@ -57,13 +57,13 @@ if(isset($_POST['submit'])){
 <section class="form-container">
 
    <form action="" method="post">
-      <h3>Incie sesion</h3>
+      <h3>Inicio de sesion</h3>
 
       <input type="text" name="name" required placeholder="Ingresar user" maxlength="20"  class="box" oninput="this.value = this.value.replace(/\s/g, '')">
       <input type="password" name="pass" required placeholder="Ingrese Contraseña" maxlength="20"  class="box" oninput="this.value = this.value.replace(/\s/g, '')">
       <input type="submit" value="Ingrese" class="btn" name="submit">
+      <a href="../home.php" class="option-btn">Inicio</a>
    </form>
-
 </section>
    
 </body>

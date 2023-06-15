@@ -61,6 +61,7 @@
          <div class="flex-btn">
             <a href="user_register.php" class="option-btn">Registrarse</a>
             <a href="user_login.php" class="option-btn">Inicio de Sesion</a>
+            <a href="./admin/admin_login.php" class="option-btn">Inicio de Admin</a>
          </div>
          <?php
             }

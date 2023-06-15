@@ -56,8 +56,7 @@ include 'components/wishlist_cart.php';
             </div>
             <div class="sub-image">
                <img src="uploaded_img/<?= $fetch_product['image_01']; ?>" alt="">
-               <img src="uploaded_img/<?= $fetch_product['image_02']; ?>" alt="">
-               <img src="uploaded_img/<?= $fetch_product['image_03']; ?>" alt="">
+             
             </div>
          </div>
          <div class="content">
@@ -68,7 +67,7 @@ include 'components/wishlist_cart.php';
             </div>
             <div class="details"><?= $fetch_product['details']; ?></div>
             <div class="flex-btn">
-               <input type="submit" value="add to cart" class="btn" name="add_to_cart">
+               <input type="submit" value="Añadir al carrito" class="btn" name="add_to_cart">
                <input class="option-btn" type="submit" name="add_to_wishlist" value="add to wishlist">
             </div>
          </div>

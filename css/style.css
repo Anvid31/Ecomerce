@@ -95,7 +95,7 @@ section{
 }
 
 .flex-btn{
-   display: flex;
+   display: grid;
    gap:1rem;
 }
 
